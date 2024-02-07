@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-import random
-number = random.randint(-10000, 10000)
-num = adc(number) % 10
+
+for i in range(97, 123):
+    print(chr(i), end=(''))
