@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 -m py_compile "$PYFILE"
+compiled_file=$(find __pycache__ -name "$(basename ${PYFILE%.py}).*.pyc")
+output_file="${PYFILE}c"
+mv "$compiled_file" "$output_file"
