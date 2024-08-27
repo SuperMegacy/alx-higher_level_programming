@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(99):
-    print(f"{i} is {hex(i)}")
+    print("{} is {}".format(i, hex(i)))
